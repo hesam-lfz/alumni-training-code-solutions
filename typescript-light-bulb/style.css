@@ -1,0 +1,30 @@
+html,
+body {
+  display: flex;
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#bulb {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.light-off {
+  background-color: gray;
+}
+
+.light-on {
+  background-color: gold;
+}
+
+.bg-light-off {
+  background-color: black;
+}
+
+.bg-light-on {
+  background-color: whitesmoke;
+}
